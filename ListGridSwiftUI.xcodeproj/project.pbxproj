@@ -11,6 +11,8 @@
 		9CD8DC24278BFD4C00C3000B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8DC23278BFD4C00C3000B /* ContentView.swift */; };
 		9CD8DC26278BFD4D00C3000B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD8DC25278BFD4D00C3000B /* Assets.xcassets */; };
 		9CD8DC29278BFD4D00C3000B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD8DC28278BFD4D00C3000B /* Preview Assets.xcassets */; };
+		9CD8DC30278BFE7000C3000B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8DC2F278BFE7000C3000B /* Model.swift */; };
+		9CD8DC34278E8BDC00C3000B /* GridList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8DC33278E8BDC00C3000B /* GridList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9CD8DC23278BFD4C00C3000B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CD8DC25278BFD4D00C3000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD8DC28278BFD4D00C3000B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CD8DC2F278BFE7000C3000B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9CD8DC33278E8BDC00C3000B /* GridList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				9CD8DC23278BFD4C00C3000B /* ContentView.swift */,
 				9CD8DC25278BFD4D00C3000B /* Assets.xcassets */,
 				9CD8DC27278BFD4D00C3000B /* Preview Content */,
+				9CD8DC2F278BFE7000C3000B /* Model.swift */,
+				9CD8DC33278E8BDC00C3000B /* GridList.swift */,
 			);
 			path = ListGridSwiftUI;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD8DC30278BFE7000C3000B /* Model.swift in Sources */,
 				9CD8DC24278BFD4C00C3000B /* ContentView.swift in Sources */,
 				9CD8DC22278BFD4C00C3000B /* ListGridSwiftUIApp.swift in Sources */,
+				9CD8DC34278E8BDC00C3000B /* GridList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
